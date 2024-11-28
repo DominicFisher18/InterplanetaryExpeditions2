@@ -1,1 +1,45 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: auto;
+}
+
+.navbar .active {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: auto;
+}
+
+@media (max-width: 770px) {
+    .rocket-img {
+        display: none;
+    }
+
+    .title {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .hamburger {
+        padding-right: 10px;
+    }
+
+    .title-text {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
 
