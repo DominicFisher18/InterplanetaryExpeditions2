@@ -27,7 +27,7 @@ function Header() {
 
     return(
         <>
-            <div className={navColor ? 'flex flex-row justify-around items-center bg-black text-white fixed top-0 w-full pt-4 pb-4' :
+            <div className={navColor ? 'flex flex-row justify-around items-center bg-black text-white fixed top-0 w-full pt-4 pb-4 z-10' :
                                         'flex flex-row justify-around items-center text-white mx-auto fixed top-0 w-full pt-4 pb-4'}>
                 <div className='flex items-center'>
                     <AiOutlineRocket size={40} className='rocket-img rotate-45'/>
@@ -45,8 +45,8 @@ function Header() {
                 <div onClick={changeNav} className=' hamburger md:hidden'>
                     {nav ? <AiOutlineMenu size={35} /> : <AiOutlineClose size={35} />}
                 </div>
-                <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-500 bg-black ease-in-out duration-500' :
-                                        'fixed left-[-100%] top-0 w-[60%] h-full border-r border-r-gray-900 bg-black'}>
+                <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-500 bg-black ease-in-out duration-500 z-10' :
+                                        'fixed left-[-100%] top-0 w-[60%] h-full border-r border-r-gray-900 bg-black z-10'}>
                     <h1 className='font-bold p-4 text-2xl'>Interplanetary Expeditions</h1>
                     <ul className='md:flex'>
                         <li className='p-4 text-xl hover:text-orange-500 ease-in-out duration-300 cursor-pointer border-b border-orange-500 mr-3'>Home</li>

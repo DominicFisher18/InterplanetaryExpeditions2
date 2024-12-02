@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Header'
 import Home from './Home'
 import About from './About'
+import Crew from './Crew'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Home/>
       <About/>
+      <Crew/>
     </>
   )
 }
