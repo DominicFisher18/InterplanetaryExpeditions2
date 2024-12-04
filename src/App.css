@@ -21,6 +21,8 @@
     width: auto;
 }
 
+
+
 @media (max-width: 770px) {
     .rocket-img {
         display: none;

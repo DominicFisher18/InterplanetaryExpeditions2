@@ -6,6 +6,8 @@ import Header from './Header'
 import Home from './Home'
 import About from './About'
 import Crew from './Crew'
+import Newsletter from './Newsletter'
+import Pricing from './Pricing'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Home/>
       <About/>
       <Crew/>
+      <Newsletter/>
+      <Pricing/>
     </>
   )
 }
