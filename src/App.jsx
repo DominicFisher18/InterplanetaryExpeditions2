@@ -8,6 +8,7 @@ import About from './About'
 import Crew from './Crew'
 import Newsletter from './Newsletter'
 import Pricing from './Pricing'
+import Contact from './Contact'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Crew/>
       <Newsletter/>
       <Pricing/>
+      <Contact/>
     </>
   )
 }
