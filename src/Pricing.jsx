@@ -23,10 +23,6 @@ function Pricing() {
 
                     <div className="relative w-[310px] mx-auto border-2 shadow-xl rounded-md mb-2">
                         <img className="h-64 object-cover rounded-md" src={Moon1} alt="Random image"/>
-                        <div className="absolute inset-0 opacity-60"></div>
-                        {/* <div class="absolute inset-0 flex items-center justify-center">
-                            <h2 class="text-white text-3xl font-bold">The Moon</h2>
-                        </div> */}
 
                         <div className=''>
                             <div className='text-center'>
@@ -48,16 +44,13 @@ function Pricing() {
                                 </div>
                             </div>
                             <h1 className='text-center mt-4 font-bold text-2xl'>Price: $1,300,000</h1>
-                            <button className='purchase-btn border-2 p-3 pl-12 pr-12 rounded-xl bg-black text-white font-bold flex mx-auto mt-10 mb-5 text-xl'>Purchase</button>
+                            <button className='purchase-btn border-2 p-3 pl-12 pr-12 rounded-xl bg-black text-white font-bold flex mx-auto mt-10 mb-5 text-xl
+                                                 hover:bg-opacity-80 ease-in-out duration-300 cursor-pointer'>Purchase</button>
                         </div>
                     </div>
 
                     <div className="relative w-[310px] mx-auto border-2 shadow-xl rounded-md mb-2">
                         <img className="h-64 object-cover rounded-md" src={Mars1} alt="Random image"/>
-                        <div className="absolute inset-0 opacity-60"></div>
-                        {/* <div class="absolute inset-0 flex items-center justify-center">
-                            <h2 class="text-white text-3xl font-bold">The Moon</h2>
-                        </div> */}
 
                         <div className=''>
                             <div className='text-center'>
@@ -79,16 +72,13 @@ function Pricing() {
                                 </div>
                             </div>
                             <h1 className='text-center mt-4 font-bold text-2xl'>Price: $2,400,000</h1>
-                            <button className='border-2 p-3 pl-12 pr-12 rounded-xl bg-black text-white font-bold flex mx-auto mt-10 mb-5 text-xl'>Purchase</button>
+                            <button className='border-2 p-3 pl-12 pr-12 rounded-xl bg-black text-white font-bold flex mx-auto mt-10 mb-5 text-xl
+                                                hover:bg-opacity-80 ease-in-out duration-300 cursor-pointer'>Purchase</button>
                         </div>
                     </div>
 
                     <div className="relative w-[310px] mx-auto border-2 shadow-xl rounded-md mb-2">
                         <img className="h-64 object-cover rounded-md" src={AsteroidBelt} alt="Random image"/>
-                        <div className="absolute inset-0 opacity-60"></div>
-                        {/* <div class="absolute inset-0 flex items-center justify-center">
-                            <h2 class="text-white text-3xl font-bold">The Moon</h2>
-                        </div> */}
 
                         <div className=''>
                             <div className='text-center'>
@@ -110,7 +100,8 @@ function Pricing() {
                                 </div>
                             </div>
                             <h1 className='text-center mt-4 font-bold text-2xl'>Price: $4,100,000</h1>
-                            <button className='border-2 p-3 pl-12 pr-12 rounded-xl bg-black text-white font-bold flex mx-auto mt-10 mb-5 text-xl'>Purchase</button>
+                            <button className='border-2 p-3 pl-12 pr-12 rounded-xl bg-black text-white font-bold flex mx-auto mt-10 mb-5 text-xl
+                                                hover:bg-opacity-80 ease-in-out duration-300 cursor-pointer'>Purchase</button>
                         </div>
                     </div>
                 </div>
