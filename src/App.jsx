@@ -9,6 +9,7 @@ import Crew from './Crew'
 import Newsletter from './Newsletter'
 import Pricing from './Pricing'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Newsletter/>
       <Pricing/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
