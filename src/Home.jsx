@@ -7,7 +7,7 @@ function Home() {
 
     return(
         <>
-            <div className='flex flex-col justify-center text-center' style={{background: `url(${BackgroundImg})`,
+            <div id='home' className='flex flex-col justify-center text-center' style={{background: `url(${BackgroundImg})`,
                         repeat: 'no-repeat',
                         // width: '100%',
                         // height: '100%',

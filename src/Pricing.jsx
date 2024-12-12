@@ -7,7 +7,7 @@ import './App.css'
 function Pricing() {
     return(
         <>
-            <div className='pb-10'>
+            <div id='pricing' className='pb-10'>
                 <div className='pt-10 pb-10'>
                     <div className='bg-black flex justify-center md:w-[700px] w-[300px] p-5 mx-auto -skew-x-12 border-4 border-orange-500'>
                         <h1 className='text-3xl md:text-5xl text-white font-bold'>Pricing</h1>

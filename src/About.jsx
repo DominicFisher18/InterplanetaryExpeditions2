@@ -4,7 +4,7 @@ import Mars from '../src/assets/mars-image-2.webp'
 function About() {
     return(
         <>
-            <div className='w-full bg-white py-16 px-4'>
+            <div id='about' className='w-full bg-white py-16 px-4'>
                 <div className='max-w-[1400px] grid lg:grid-cols-2 mx-auto'>
                     <img className='w-[400px] md:w-[500px] mx-auto center' src={Mars}/>
                     <div className='flex flex-col justify-center text-center mt-6 lg:mt-0'>
