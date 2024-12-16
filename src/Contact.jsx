@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 
 function Contact() {
+
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [message, setMessage] = useState("")
+
+    const clearForm = () => {
+        console.log(name, email, message)
+        setName('')
+        setEmail('')
+        setMessage('')
+    }
+
     return(
         <>
             <div id='contact' className='w-full bg-black text-white py-16'>
@@ -33,10 +45,10 @@ function Contact() {
                     </div>
 
                     <div className='flex flex-col justify-center border-2 border-orange-500 p-5 mr-5 ml-5'>
-                        <input type='text' placeholder='name (first and last)' className='rounded-3xl p-2 mb-2 text-black'/>
-                        <input type='text' placeholder='email' className='rounded-3xl p-2 mb-2 text-black'/>
-                        <textarea placeholder='leave a message!' cols={30} rows={10} className='p-2 mb-2 text-black'/>
-                        <button className='border-2 border-orange-500 mx-auto p-3 pl-12 pr-12 font-bold text-xl hover:border-black ease-in-out duration-300'>Submit</button>
+                        <input value={name} onChange={(e) => setName(e.target.value)} type='text' placeholder='name (first and last)' className='rounded-3xl p-2 mb-2 text-black'/>
+                        <input value={email} onChange={(e) => setEmail(e.target.value)} type='text' placeholder='email' className='rounded-3xl p-2 mb-2 text-black'/>
+                        <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder='leave a message!' cols={30} rows={10} className='p-2 mb-2 text-black'/>
+                        <button onClick={clearForm} className='border-2 border-orange-500 mx-auto p-3 pl-12 pr-12 font-bold text-xl hover:border-black ease-in-out duration-300'>Submit</button>
                     </div>
                 </div>
             </div>

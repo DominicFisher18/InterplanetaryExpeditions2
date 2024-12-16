@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import BackgroundImg from '../src/assets/mars-background.jpg'
 import { ReactTyped } from "react-typed";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function Home() {
@@ -26,7 +27,11 @@ function Home() {
                             backSpeed={140}
                             loop/>
                 </div>
-                <button className='text-white text-2xl border-2 border-white mx-auto mt-10 p-4 pl-9 pr-9 -skew-x-12 hover:ease-in-out duration-300 hover:bg-white hover:text-black z-0'>Start Journey</button>
+                <button className='text-white text-2xl border-2 border-white mx-auto mt-10 p-4 pl-9 pr-9 -skew-x-12 hover:ease-in-out duration-300 hover:bg-white hover:text-black z-0'>
+                    <Link to="#about">
+                    Start Journey
+                    </Link>
+                </button>
             </div>
             
         </> 
